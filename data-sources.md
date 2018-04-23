@@ -4,6 +4,28 @@ Pelias is built with a mostly data-agnostic architecture: any datasource that ca
 
 Attribution is required for many of data providers. Some license information is listed here, but you are responsible for researching each project to follow their license terms.
 
+## NGA Geographic Names Database
+
+`sources=geographicnames` | `sources=gndb`
+
+Layers:
+
+- `venue`
+- `country`
+- `macroregion`
+- `region`
+- `county`
+- `localadmin`
+- `locality`
+- `neighbourhood`
+- `coarse` (alias for simultaneously using all the above)
+
+[NGA's Geographic Names Database](http://geonames.nga.mil/gns/html/index.html) is the National Geospatial-Intelligence Agency's official repository of foreign place-name decisions approved by the U.S. Board on Geographic Names (BGN). The geographic area of coverage is worldwide, excluding the United States and Antarctica. The data served are in a geographic coordinate system based on the WGS84 datum and ellipsoid. Geographic coordinates are approximate and are intended for finding purposes. The data are served by the GEOnet Names Server (GNS); the database is updated weekly.
+
+There are no licensing requirements or restrictions in place for the use of the GNS data. However, the following citation is recommended to identify the GNS as a source:
+
+Toponymic information is based on the Geographic Names Data Base, containing official standard names approved by the United States Board on Geographic Names and maintained by the National Geospatial-Intelligence Agency. The National Geospatial-Intelligence Agency name, initials, and seal are protected by 10 United States Code Section 425.
+
 ## OpenAddresses
 
 `sources=openaddresses` | `sources=oa`

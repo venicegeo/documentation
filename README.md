@@ -13,6 +13,7 @@ Here is where you can find all documentation for the [Pelias geocoder](https://g
 - [Glossary of common terms](glossary.md)
 - [Place endpoint](place.md) for details on a place returned from a previous query
 - [Language support](language-codes.md) for seeing results in different languages
+- [Convert endpoint](convert.md) to convert between decimal degrees and MGRS coordinates
 
 ### Data Sources
 - [Pelias data sources](data-sources.md)

@@ -6,6 +6,7 @@ Parameter | Type | Required | Accepted values
 --- | --- | --- | ---
 `to`| string | yes | mgrs or decdeg
 `from` | string | yes | mgrs or decdeg
+`datum` | string | yes | https://geocap.atlassian.net/wiki/spaces/ug/pages/7372992/Datums+and+coordinate+systems
 
 ## Convert from MGRS coordinates to decimal degrees
 

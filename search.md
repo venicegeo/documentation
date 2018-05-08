@@ -362,7 +362,7 @@ Results can be filtered by geometry type.
 
  Parameter | Accepted values
  --- | ---
-| `geometries` | point, polygon, or point,polygon
+| `geometries` | `point`, `polygon`, or `point,polygon`
 
 If no value is specified, point features are returned.
 

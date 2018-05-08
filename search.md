@@ -357,10 +357,14 @@ In Pelias, place types are referred to as `layers`, ranging from fine to coarse.
 
 ### Filter by points or polygons
 
-| parameter | value |
-| :--- | :--- |
-| `text` | YMCA |
-| `layers` | venue,address |
+Results can be filtered by geometry type.
+
+ Parameter | Accepted values
+ --- | ---
+| `geometries` | point, polygon, or point,polygon
+
+If no value is specified, point features are returned.
+
 
 ## Available search parameters
 

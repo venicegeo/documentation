@@ -290,6 +290,7 @@ With Pelias, you can filter by:
 
 * `sources`: the originating source of the data
 * `layers`: the kind of place you want to find
+* `geometries`: the geometry (e.g., point, polygon) of the place you want to find
 
 ### Filter by data source
 The search examples so far have returned a mix of results from all the data sources available to Pelias. Here are the sources being searched:

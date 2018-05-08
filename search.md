@@ -355,6 +355,8 @@ In Pelias, place types are referred to as `layers`, ranging from fine to coarse.
 
 > [/v1/search?text=YMCA&__layers=venue,address__](https://mapzen.com/search/explorer/?query=search&text=YMCA&layers=venue,address)
 
+### Filter by points or polygons
+
 | parameter | value |
 | :--- | :--- |
 | `text` | YMCA |

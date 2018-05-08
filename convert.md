@@ -1,6 +1,6 @@
 # Convert endpoint
 
-The `/convert` endpoint integrates the [Geotrans MGRS Converter](https://github.com/venicegeo/geotrans-mgrs-converter) to convert between Military Grid Reference System (MGRS) coordinates and geodetic coordinates using NGA's Geotrans C++ libraries.
+The `/convert` endpoint integrates the [Geotrans MGRS Converter](https://github.com/venicegeo/geotrans-mgrs-converter) to convert between Military Grid Reference System (MGRS) coordinates and geocentric coordinates using NGA's Geotrans C++ libraries.
 
 Parameter | Type | Required | Accepted values
 --- | --- | --- | ---
@@ -35,7 +35,7 @@ Output for the example above looks like:
 
 ## Convert from decimal degrees to MGRS coordinates
 
-To convert decimal degrees to MGRS coordinates, specify the geodetic coordinates using the `lat` and `lon` parameters. For example:
+To convert decimal degrees to MGRS coordinates, specify the geocentric coordinates using the `lat` and `lon` parameters. For example:
 
 > /v1/convert?from=decdeg&to=mgrs&lat=37.616512715282965&lon=55.75761701627411
 

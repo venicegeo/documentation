@@ -3,9 +3,9 @@
 The `/convert` endpoint integrates the [Geotrans MGRS Converter](https://github.com/venicegeo/geotrans-mgrs-converter) to convert between Military Grid Reference System (MGRS) coordinates and geodetic coordinates using NGA's Geotrans C++ libraries.
 
 Parameter | Type | Required | Accepted values
---- | --- | --- | --- | ---
-| `to`| string | yes | mgrs or decdeg
-| `from` | string | yes | mgrs or decdeg
+--- | --- | --- | ---
+`to`| string | yes | mgrs or decdeg
+`from` | string | yes | mgrs or decdeg
 
 ## Convert from MGRS coordinates to decimal degrees
 
@@ -62,5 +62,5 @@ Output for the example above looks like:
 Geotrans will return errors if parameters are missing or invalid, or if unsupported coordinate types are submitted.
 
 Error code | Definition
---- | --- 
-422 https://tools.ietf.org/html/rfc4918#page-78
+--- | ---
+422 | https://tools.ietf.org/html/rfc4918#page-78

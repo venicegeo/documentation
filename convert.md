@@ -54,6 +54,8 @@ Output for the example above looks like:
     },
     "properties": {
         "name": "37UDB13187997",
+        "from": "decdeg",
+        "to": "mgrs"
     }
 }
 ```

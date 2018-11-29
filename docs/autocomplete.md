@@ -119,7 +119,7 @@ with `layers=venue` you will see only the venues by that name
 
 ### Country
 
-![Searching in a country](/images/world_country.png)
+![Searching in a country](assets/images/world_country.png)
 
 Sometimes your work might require that all the search results be from a particular country. To do this, you can set the `boundary.country` parameter value to the alpha-2 or alpha-3 [ISO-3166 country code](https://en.wikipedia.org/wiki/ISO_3166-1).
 

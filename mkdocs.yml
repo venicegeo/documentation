@@ -1,28 +1,32 @@
 site_name: Pelias
 nav:
   - About: index.md
-  - Forward Geocoding: search.md
-  - Reverse Geocoding: reverse.md
-  - Structured Geocoding: structured-geocoding.md
-  - Search Workflows: search-workflows.md
-  - Search Results: response.md
-  - Address Details: addresses.md
-  - Autocomplete: autocomplete.md
-  - Place endpoint: place.md
-  - Convert Endpoint: convert.md
+  - For Developers:
+    - Forward Geocoding: search.md
+    - Reverse Geocoding: reverse.md
+    - Structured Geocoding: structured-geocoding.md
+    - Search Workflows: search-workflows.md
+    - Search Results: response.md
+    - Address Details: addresses.md
+    - Autocomplete: autocomplete.md
+    - Place endpoint: place.md
+    - Convert Endpoint: convert.md
+    # - Status Codes: http-status-codes.md
+    - Language Support: language-codes.md
   - Data Sources: data-sources.md
-  - Status Codes: http-status-codes.md
-  - Release Notes: release-notes.md
   - Glossary of Terms: glossary.md
-  - Language Support: language-codes.md
+  - Release Notes: release-notes.md
 site_author: 'Luke Rees'
+
+extra_css:
+  - 'stylesheets/extra.css'
 
 theme: 
   name: 'material'
+  custom_dir: 'theme'
   language: 'en'
-  favicon: 'assets/images/favicon.ico'
-  logo:
-    icon: 'map'
+  favicon: 'assets/images/pelias-favicon.ico'
+  logo: 'assets/images/pelias-logo-white.svg'
   font:
     text: 'Roboto'
     code: 'Roboto Mono'

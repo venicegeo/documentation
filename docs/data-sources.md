@@ -38,7 +38,7 @@ Layers:
 
 OpenAddresses is by far the largest dataset by number of records used by Pelias. Even though it only contains address data (as in no building names or other metadata), it's a great resource for global geocoding.
 
-The license for each individual source within OpenAddresses differs. Many of the sources require [attribution](https://mapzen.com/rights/), and many others have a share-alike clause.
+The license for each individual source within OpenAddresses differs. Many of the sources require attribution, and many others have a share-alike clause.
 *Note:* Pelias does _not_ currently return license information directly, but the license and attribution requirements for each source within OpenAddresses can be determined from the machine-readable [state.txt](http://results.openaddresses.io/state.txt) file published on the OpenAddresses website.
 
 ## Who's on First
@@ -111,18 +111,3 @@ Layers:
 In the meantime, Geonames still provides a wide variety of useful data that helps augment the other datasets used by Pelias.
 
 Geonames data is licensed [CC-BY-3.0](http://creativecommons.org/licenses/by/3.0/).
-
-# Deprecated sources
-Certain data sources used to be supported by Pelias but are no longer offered part of the core service and have been superseded by a new data source.
-
-## Quattroshapes
-
-`sources=quattroshapes` | `sources=qs`
-
-Quattroshapes used to be supported by Pelias and its use was discontinued in April 2016. The importer can still be found at [pelias-deprecated/quattroshapes](https://github.com/pelias-deprecated/quattroshapes).
-
-It has been replaced by Who's on First, which continues to provide global administrative place data (countries, regions, counties, cities) and administrative lookup (_"what country, region, and city is this address part of?"_).
-
-To help make the transition seamless, any queries that specify quattroshapes in the `sources` parameter will see results from Who's on First instead. Who's on First contains all the data from Quattroshapes, plus more data, and has continuous updates and fixes. All existing queries for Quattroshapes will continue to work without modification.
-
-Quattroshapes data is licensed [CC-BY-2.0](http://creativecommons.org/licenses/by/2.0/).

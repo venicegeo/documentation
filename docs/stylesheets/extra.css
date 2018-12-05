@@ -1,0 +1,42 @@
+body {
+    color: #4D575C !important;
+}
+
+body > header {
+    background-color: #283D98 !important;
+}
+
+[data-md-color-primary="blue-grey"] .md-nav__link--active {
+    color: #231F20;
+    font-weight: 600;
+}
+
+.md-nav__link {
+    color: #231F20;
+}
+.md-nav__link:hover {
+    color: #029DAF !important;
+}
+
+.md-search-result__link:hover {
+    background-color: rgba(2, 157, 175, 0.15) !important;
+}
+
+.md-typeset a {
+    color: #231F20 !important;
+    text-decoration: underline;
+}
+
+.md-typeset a:hover {
+    color: #029DAF !important;
+}
+
+[data-md-color-accent="orange"] .md-typeset [id]:target .headerlink {
+    color: #029DAF !important;
+}
+
+@media only screen and (max-width: 76.1875em) {
+    .md-nav__title--site {
+        background-color: #029DAF !important;
+    }
+}

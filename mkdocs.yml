@@ -1,0 +1,58 @@
+site_name: Pelias
+nav:
+  - About: index.md
+  - For Developers:
+    - Forward Geocoding: search.md
+    - Reverse Geocoding: reverse.md
+    - Structured Geocoding: structured-geocoding.md
+    - Search Workflows: search-workflows.md
+    - Search Results: response.md
+    - Address Details: addresses.md
+    - Autocomplete: autocomplete.md
+    - Place endpoint: place.md
+    - Convert Endpoint: convert.md
+    # - Status Codes: http-status-codes.md
+    - Language Support: language-codes.md
+  - Data Sources: data-sources.md
+  - Glossary of Terms: glossary.md
+  - Release Notes: release-notes.md
+site_author: 'Luke Rees'
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+theme: 
+  name: 'material'
+  custom_dir: 'theme'
+  language: 'en'
+  favicon: 'assets/images/pelias-favicon.ico'
+  logo: 'assets/images/pelias-logo-white.svg'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  palette:
+    primary: 'blue grey'
+    accent: 'orange'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde

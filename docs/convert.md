@@ -12,7 +12,7 @@ Parameter | Type | Required | Accepted values
 
 To convert MGRS coordinates to decimal degrees, specify the MGRS coordinates using the `q` parameter. For example:
 
-> /v1/convert?from=mgrs&to=decdeg&q=37UDB13187997
+> `/v1/convert?from=mgrs&to=decdeg&q=37UDB13187997`
 
 Output for the example above looks like:
 
@@ -38,7 +38,7 @@ Output for the example above looks like:
 
 To convert decimal degrees to MGRS coordinates, specify the geocentric coordinates using the `lat` and `lon` parameters. For example:
 
-> /v1/convert?from=decdeg&to=mgrs&lat=37.616512715282965&lon=55.75761701627411
+> `/v1/convert?from=decdeg&to=mgrs&lat=37.616512715282965&lon=55.75761701627411`
 
 Output for the example above looks like:
 

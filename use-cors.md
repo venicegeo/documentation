@@ -16,18 +16,15 @@ For a full list of supported browsers see: http://caniuse.com/#feat=cors
 
 You can add a Pelias box to any [Leaflet](http://leafletjs.com/) map.
 
-See the [Mapzen.js documentation](https://mapzen.com/documentation/mapzen-js/search/#add-mapzen-search-box-to-a-map) for instructions. There is also a [tutorial](add-search-to-a-map.md) available.
-
 ### Loading data with jQuery
 
 ```javascript
 $.ajax({
-  url: "https://search.mapzen.com/v1/search",
+  url: "https://your.pelias.com/v1/search",
   method: "GET",
   dataType: "json",
   data: {
     "text": "London, UK",
-    "api_key": "your-mapzen-api-key"
   },
   success: function( data, status, jqxhr ){
     console.log( "Request received:", data );
@@ -44,12 +41,11 @@ interactive demo: http://jsfiddle.net/missinglink/fb6p0par/
 
 ```javascript
 $http({
-  url: "https://search.mapzen.com/v1/search",
+  url: "https://your.pelias.com/v1/search",
   method: "GET",
   headers: { "Accept": "application/json" },
   params: {
     "text": "London, UK",
-    "api_key": "your-mapzen-api-key"
   },
 })
 .success(function( data, status ) {

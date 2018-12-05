@@ -112,8 +112,8 @@ By default, Pelias results 10 places, unless otherwise specified. If you want a 
 | `text` | YMCA |
 | `size` | 1 |
 
-> /v1/search?text=YMCA&___size=1___
+> `/v1/search?text=YMCA&size=1`
 
 If you want 25 results, you can build the query where `size` is 25.
 
-> /v1/search?text=YMCA&___size=25___
+> `/v1/search?text=YMCA&size=25`

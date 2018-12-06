@@ -11,13 +11,13 @@ Pelias provides place and address search against several datasets, including NGA
 ## Search by name
 ![1](assets/images/ek_search_name.png)
 
-## Search by MGRS code
+## Search by MGRS
 ![1](assets/images/ek_search_mgrs.png)
 
 ## Search by latitude & longitude
 ![1](assets/images/ek_search_lat_lon.png)
 
-## Search with multiple languages
+## Search using foreign characters
 ![1](assets/images/ek_search_language.png)
 
 ## Visualize your search

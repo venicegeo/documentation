@@ -22,7 +22,7 @@ body > header {
     background-color: rgba(2, 157, 175, 0.15) !important;
 }
 
-.md-typeset a {
+main .md-typeset a {
     color: #231F20 !important;
     text-decoration: underline;
 }
@@ -37,6 +37,10 @@ body > header {
 
 @media only screen and (max-width: 76.1875em) {
     .md-nav__title--site {
-        background-color: #029DAF !important;
+        background-color: #283D98 !important;
     }
+}
+
+.md-footer-copyright a {
+    color: rgba(255, 255, 255, 0.7);
 }

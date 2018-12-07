@@ -1,16 +1,14 @@
-# Get search results in a particular language
+# Foreign language character sets
+
+Pelias supports search with foreign language characters sets.
+
+![script search](/ek_search_language.png)
+
+# Search by language code
 
 You can get search results in another language, if available, by specifying a target language code with your request.
 
-By default, search responses are in the default locale of the dataset. However, if you include a language code, the search attempts to return place names in the language you specified.
-
-If the language you requested is unavailable, then the default language is returned. In some cases, this is the local dialect, or it may be English for other datasets.
-
-## Request a specific language
-
 You can specify the target language code in the [BCP47 standard](http://www.rfc-editor.org/rfc/bcp/bcp47.txt) as either a query string URL parameter or an HTTP header.
-
-Note that a language code in the query string takes precedence over a code in the header. If you include an invalid language code, then you see a warning message and the search attempts to find a valid code, if one is available. Otherwise, the results fall back to default behavior.
 
 BCP47 language tags can contain three parts:
 
@@ -22,7 +20,13 @@ At this time, only the `language subtag` information is used to set the target l
 
 ### Set language as a query string in the URL
 
-You can specify the language code using a URL parameter named `lang`: `/v1/search?lang=de-ch`.
+You can specify the language code using a URL parameter named `lang`: 
+
+> `v1/search?text=北京&lang=en`
+
+> `v1/search?text=北京&lang=fr`
+
+> `v1/search?text=beijing&lang=zh`
 
 ### Set language in the HTTP header
 
@@ -52,3 +56,5 @@ The language items include:
 - `name`: a human-readable name for the language, in English
 - `iso6391` and `iso6393`: the language code as defined in the two most common standards
 - `defaulted`: a value of `true` or `false` to indicate if there was a fall-back to a default language property
+
+If the language you requested is unavailable, then the default language is returned. In some cases, this is the local language, or it may be English for other datasets. Note that a language code in the query string takes precedence over a code in the header. If you include an invalid language code, then you see a warning message and the search attempts to find a valid code, if one is available. Otherwise, the results fall back to default behavior.

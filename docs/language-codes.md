@@ -23,7 +23,9 @@ At this time, only the `language subtag` information is used to set the target l
 You can specify the language code using a URL parameter named `lang`: 
 
 > `v1/search?text=北京&lang=en`
+
 > `v1/search?text=北京&lang=fr`
+
 > `v1/search?text=beijing&lang=zh`
 
 ### Set language in the HTTP header

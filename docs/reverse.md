@@ -46,8 +46,8 @@ By default, reverse geocoding returns results from any [data source](data-source
 
 | source | name | short name |
 |---|---|---|
-| [OpenStreetMap](http://www.openstreetmap.org/) | `openstreetmap` | `osm` |
-| [OpenAddresses](http://openaddresses.io/) | `openaddresses` | `oa` |
+| OpenStreetMap | `openstreetmap` | `osm` |
+| OpenAddresses | `openaddresses` | `oa` |
 | [Who's on First](https://whosonfirst.org) | `whosonfirst` | `wof` |
 | [GeoNames](http://www.geonames.org/) | `geonames` | `gn` |
 

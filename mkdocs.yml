@@ -9,10 +9,10 @@ nav:
     - Search Results: response.md
     - Address Details: addresses.md
     - Autocomplete: autocomplete.md
-    - Place endpoint: place.md
+    - Place Endpoint: place.md
     - Convert Endpoint: convert.md
     # - Status Codes: http-status-codes.md
-    - Language Support: language-codes.md
+    - Language Codes and Character Sets: language-codes.md
   - Data Sources: data-sources.md
   - Glossary of Terms: glossary.md
   - Release Notes: release-notes.md

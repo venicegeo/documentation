@@ -1,6 +1,6 @@
 # Data sources with supported importers
 
-Pelias is built with a mostly data-agnostic architecture: any datasource that can be converted into the Elasticsearch document format used by Pelias can be imported and geocoded against. Of course, building a good importer takes time. Pelias currently has official support for five importers from four different open data projects. We owe a tremendous debt of gratitude to the individuals and communities which produced these datasets.
+Pelias is built with a mostly data-agnostic architecture: any datasource that can be converted into the Elasticsearch document format used by Pelias can be imported and geocoded against. Pelias currently has support for five importers, and can be customized to include additional importers.
 
 Attribution is required for many of data providers. Some license information is listed here, but you are responsible for researching each project to follow their license terms.
 
@@ -34,12 +34,12 @@ Layers:
 
 - `address`
 
-[OpenAddresses](http://openaddresses.io/) is a collection of over 300 million addresses around the world. Data in OpenAddresses only comes from national, state, and local governments, so this data is highly authoritative. Because it consists of entirely bulk imports, OpenAddresses is a large, global, and rapidly growing dataset. Many countries, particularly in Europe, now have every address represented in OpenAddresses.
+OpenAddresses is a collection of over 300 million addresses around the world. Data in OpenAddresses only comes from national, state, and local governments, so this data is highly authoritative. Because it consists of entirely bulk imports, OpenAddresses is a large, global, and rapidly growing dataset. Many countries, particularly in Europe, now have every address represented in OpenAddresses.
 
 OpenAddresses is by far the largest dataset by number of records used by Pelias. Even though it only contains address data (as in no building names or other metadata), it's a great resource for global geocoding.
 
 The license for each individual source within OpenAddresses differs. Many of the sources require attribution, and many others have a share-alike clause.
-*Note:* Pelias does _not_ currently return license information directly, but the license and attribution requirements for each source within OpenAddresses can be determined from the machine-readable [state.txt](http://results.openaddresses.io/state.txt) file published on the OpenAddresses website.
+*Note:* Pelias does _not_ currently return license information directly, but the license and attribution requirements for each source within OpenAddresses can be determined from the machine-readable `state.txt` file published on the OpenAddresses website.
 
 ## Who's on First
 
@@ -82,11 +82,11 @@ Layers:
 - `venue`
 - `street`
 
-[OpenStreetMap](https://www.openstreetmap.org/) is a community-driven, editable map of the world. It prioritizes local knowledge and individual contributions over bulk imports, which often means it has excellent coverage even in remote areas where no large-scale mapping efforts have been attempted. OpenStreetMap contains information on landmarks, buildings, roads, and natural features.
+OpenStreetMap is a community-driven, editable map of the world. It prioritizes local knowledge and individual contributions over bulk imports, which often means it has excellent coverage even in remote areas where no large-scale mapping efforts have been attempted. OpenStreetMap contains information on landmarks, buildings, roads, and natural features.
 
 With its coverage of roads as well as rich metadata, OpenStreetMap is arguably the most valuable dataset used by Pelias for general usage.
 
-All OpenStreetMap data is licensed under the [ODbL](http://opendatacommons.org/licenses/odbl/), a [share-alike](https://en.wikipedia.org/wiki/Share-alike) license which also requires attribution.
+All OpenStreetMap data is licensed under the ODbL, a [share-alike](https://en.wikipedia.org/wiki/Share-alike) license which also requires attribution.
 
 **Note:** There are _two_ importers for OSM data. The main importer, [pelias/openstreetmap](https://github.com/pelias/openstreetmap/), handles venues and addresses. The [pelias/polylines](https://github.com/pelias/polylines) importer handles streets, since dealing with line geometry is a special challenge.
 

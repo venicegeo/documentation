@@ -296,8 +296,8 @@ The search examples so far have returned a mix of results from all the data sour
 
 | source | name | short name |
 |---|---|---|
-| [OpenStreetMap](http://www.openstreetmap.org/) | `openstreetmap` | `osm` |
-| [OpenAddresses](http://openaddresses.io/) | `openaddresses` | `oa` |
+| OpenStreetMap | `openstreetmap` | `osm` |
+| OpenAddresses | `openaddresses` | `oa` |
 | [Who's on First](https://whosonfirst.org) | `whosonfirst` | `wof` |
 | [GeoNames](http://www.geonames.org/) | `geonames` | `gn` |
 

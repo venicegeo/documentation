@@ -35,8 +35,6 @@ $.ajax({
 });
 ```
 
-interactive demo: http://jsfiddle.net/missinglink/fb6p0par/
-
 ### Loading data with Angular
 
 ```javascript
@@ -55,8 +53,6 @@ $http({
   console.log( "Something went wrong!" );
 });
 ```
-
-interactive demo: http://jsfiddle.net/missinglink/nchh8a9j/
 
 ## Why not JSONP?
 

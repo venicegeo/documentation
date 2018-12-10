@@ -2,7 +2,7 @@
 
 Pelias supports search with foreign language characters sets.
 
-![script search](/ek_search_language.png)
+![script search](assets/images/ek_search_language.png)
 
 # Search by language code
 

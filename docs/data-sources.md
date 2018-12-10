@@ -110,4 +110,4 @@ Layers:
 
 In the meantime, Geonames still provides a wide variety of useful data that helps augment the other datasets used by Pelias.
 
-Geonames data is licensed [CC-BY-3.0](http://creativecommons.org/licenses/by/3.0/).
+Geonames data is licensed `CC-BY-3.0`.

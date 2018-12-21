@@ -16,7 +16,7 @@ To convert MGRS coordinates to decimal degrees, specify the MGRS coordinates usi
 
 Output for the example above looks like:
 
-```
+```json
 {
     "type": "Feature",
     "geometry": {
@@ -42,7 +42,7 @@ To convert decimal degrees to MGRS coordinates, specify the geocentric coordinat
 
 Output for the example above looks like:
 
-```
+```json
 {
     "type": "Feature",
     "geometry": {

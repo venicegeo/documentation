@@ -33,7 +33,7 @@ geojson = requests.get('http://your.pelias.test/v1/autocomplete',
 This does two things different. 
  
  First, a list of results would be populated with what pelias most likely thinks the user wants for the search `bras`.
-Which also returns Brasilia as the first result.  It also includes Brasov which is a very different result then above.  
+Which also returns Brasilia as the first result.  It also includes Brasov which is a very different result than above.  
 
 The other difference is it is only point data which will return much faster. 
 

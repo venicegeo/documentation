@@ -36,7 +36,7 @@ You can include the language code in the HTTP request header with the `Accept-La
 
 The response contains information about the language being returned, which can be helpful for debugging.  
 
-```
+```json
 {
   "geocoding": {
       [...]

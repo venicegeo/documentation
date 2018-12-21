@@ -14,6 +14,7 @@ nav:
     # - Status Codes: http-status-codes.md
     - Language Codes and Character Sets: language-codes.md
     - Swagger/OpenAPI Documentation: '/api-docs/'
+    - Example: example.md
   - Data Sources: data-sources.md
   - Glossary of Terms: glossary.md
   - Release Notes: release-notes.md

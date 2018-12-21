@@ -6,7 +6,7 @@ When requesting results from Pelias, you will always get back GeoJSON results, u
 
 The top-level structure to every response looks like this:
 
-```
+```json
 {
   "geocoding":{...},
   "type":"FeatureCollection",
@@ -21,7 +21,7 @@ The `features` property of the result is where you will find the list of results
 
 Each item in this list will contain all the information needed to find it in human-readable format in the `properties` block, as well as computer friendly coordinates in the `geometry` property.
 
-```
+```json
 {
       "type": "Feature",
       "geometry": {

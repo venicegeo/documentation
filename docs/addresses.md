@@ -10,7 +10,7 @@ Properties that are related to confidence include `accuracy` and `match_type`. T
 
 Here is an example resulting from a search for the text, `30 W 26th street, New York, NY`:
 
-```
+```json
 "properties": {
   [...]
   "name": "30 West 26th Street",
@@ -36,7 +36,7 @@ To improve upon the straight line technique, the Pelias interpolation implementa
 
 If the address was derived using this technique, you see `interpolated` for the `match_type`.
 
-```
+```json
 },
 "properties": {
   [...]

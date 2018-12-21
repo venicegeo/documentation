@@ -4,7 +4,7 @@ With structured geocoding, you can search for the individual parts of a location
 
 For example, you want to find `30 West 26th Street, New York, NY`. With the geocoding parameter for `search`, you can only enter the entire location as one string, such as `text=30 West 26th Street, New York, NY`. However, with `search/structured`, you can specify that this location is composed of a street address, a locality, and a region.
 
-```
+```json
 {
   address: '30 West 26th Street',
   locality: 'New York',
